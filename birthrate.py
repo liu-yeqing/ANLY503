@@ -104,9 +104,9 @@ def econAnalysis():
     corr_CN,_=pearsonr(y_CN, y1_CN)
     corr_US,_=pearsonr(y_US, y1_US)
     corr_IN,_=pearsonr(y_IN, y1_IN)
-    print('Pearsons correlation: %.3f' % corr_CN)
-    print('Pearsons correlation: %.3f' % corr_US)
-    print('Pearsons correlation: %.3f' % corr_IN)
+    print('Pearsons correlation of inflation and birth rate: %.3f' % corr_CN)
+    print('Pearsons correlation of inflation and birth rate: %.3f' % corr_US)
+    print('Pearsons correlation of inflation and birth rate: %.3f' % corr_IN)
     
     
     
@@ -123,9 +123,9 @@ def econAnalysis():
     corr_CN_gdp,_=pearsonr(gdp_CN, br_CN)
     corr_US_gdp,_=pearsonr(gdp_US, br_US)
     corr_IN_gdp,_=pearsonr(gdp_IN, br_IN)
-    print('Pearsons correlation: %.3f' % corr_CN_gdp)
-    print('Pearsons correlation: %.3f' % corr_US_gdp)
-    print('Pearsons correlation: %.3f' % corr_IN_gdp)
+    print('Pearsons correlation of gdp and birth rate: %.3f' % corr_CN_gdp)
+    print('Pearsons correlation of gdp and birth rate: %.3f' % corr_US_gdp)
+    print('Pearsons correlation of gdp and birth rate: %.3f' % corr_IN_gdp)
     ############################ economy end #############################
     
     
